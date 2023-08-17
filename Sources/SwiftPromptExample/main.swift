@@ -75,4 +75,4 @@ let option = Prompt.selectOption(
 Prompt.writeGroupUpdate(title: "Information gathered...")
 
 // Close group
-Prompt.endPromptGroup(title: "Username: \(username ?? "not provided"), Password: \(password ?? "not provided"), Fruit: \(option.title)".onGreen)
+Prompt.endPromptGroup(title: "Username: \(username), Password: \(password), Fruit: \(option.title)".onGreen)
