@@ -77,14 +77,14 @@ public enum Prompt {
     ///   - placeholder: Optional placeholder text/hint to display to the user when no input is detected.
     ///   - isSecureEntry: Bool whether input characters should be masked.
     ///   - validationHandler: Closure invoked when input is submitted. Returns a ``ValidationResult``
-    /// - Returns: `String` or `nil`
+    /// - Returns: `String`
     /// - SeeAlso: ``ValidationResult``
     public static func textInput(
         question: String,
         placeholder: String?,
         isSecureEntry: Bool,
         validator: @escaping (String) -> ValidationResult
-    ) -> String? {
+    ) -> String {
         let prompt = InputPrompt(question: question, placeholder: placeholder, isSecureEntry: isSecureEntry, validationHandler: validator)
         return prompt.prompt()
     }
