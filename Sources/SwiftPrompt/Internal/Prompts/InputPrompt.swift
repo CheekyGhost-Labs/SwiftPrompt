@@ -36,7 +36,7 @@ class InputPrompt {
 
     // MARK: - Helpers: Private
 
-    func prompt() -> String? {
+    func prompt() -> String {
         // Enable cursor
         cursorOn()
         moveLineDown()
