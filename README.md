@@ -154,7 +154,7 @@ let package = Package(
     // name, platforms, products, etc.
     dependencies: [
         // ...
-        .package(url: "https://github.com/CheekyGhost-Labs/SwiftPrompt.git", from: "0.1.0"),
+        .package(url: "https://github.com/CheekyGhost-Labs/SwiftPrompt.git", from: "1.0.0"),
     ],
     .product(name: "SwiftPrompt", package: "SwiftPrompt")
     targets: [
