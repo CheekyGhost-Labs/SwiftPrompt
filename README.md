@@ -173,3 +173,13 @@ let package = Package(
 
 I am looking at some testing approaches for this. Due to the nature of the utility however, I am doing a lot of manual testing to enable usage of the library. Watch this space as a unit testing approach will be added in the near future.
 
+## Shout Outs
+
+This utility was heavily inspired by an in-progress port of `Clack` named `swift-clack`. That repo can be found here:
+
+- [polpielladev - Swift Clack](https://github.com/polpielladev/clack-swift/releases)
+- [polpielladev - Github Profile](https://github.com/polpielladev)
+
+The original clack library (in JS land) can be found here:
+
+- [natemoo-re - Clack](https://github.com/natemoo-re/clack)
